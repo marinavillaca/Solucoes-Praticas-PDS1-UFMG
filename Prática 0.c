@@ -3,7 +3,6 @@
 // É um programa que simplesmente imprime “Alo mundo!” na tela. 
 //Digite o programa abaixo no seu editor de programas favorito. Depois, compile e execute o programa.
 
-
 #include <stdio.h>
 int main() {
     printf(“Alo mundo!”);
