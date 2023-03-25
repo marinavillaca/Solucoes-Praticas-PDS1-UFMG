@@ -1,5 +1,5 @@
-# Solucoes-Praticas-PDS1-UFMG;
-PROGRAMAÇÃO E DESENVOLVIMENTO DE SOFTWARE I;
-PDS1;
-Professor: Pedro Olmo;
-Nível: Iniciante.
+# Solucoes-Praticas-PDS1-UFMG <br />
+2023/1 - PROGRAMAÇÃO E DESENVOLVIMENTO DE SOFTWARE I <br />
+PDS1 <br />
+Professor: Pedro Olmo <br />
+Nível: Iniciante. <br />
