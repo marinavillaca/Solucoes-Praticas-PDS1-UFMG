@@ -5,14 +5,12 @@ Escreva um programa para imprimir o seu primeiro nome em código ASC. Se o seu n
 */
 
 #include <stdio.h>
+int main(){
 
-	int main(){
-
-		// nome = Marina
-		char c1 = 'M', c2 = 'a', c3 = 'r', c4 = 'i', c5 = 'n';
-		printf("O meu nome (Marina) em codigo ASC eh: %d %d %d %d %d %d\n", c1,c2,c3,c4,c5,c2);
-
-		return 0;
+	// nome = Marina
+	char c1 = 'M', c2 = 'a', c3 = 'r', c4 = 'i', c5 = 'n';
+	printf("O meu nome (Marina) em codigo ASC eh: %d %d %d %d %d %d\n", c1,c2,c3,c4,c5,c2);
+	return 0;
 	}
 
 /*
@@ -34,13 +32,11 @@ Então, faça isso (1) sem alterar nenhuma linha que o programador escreveu e (2
 Dica: troque os valores armazenados em cada variável.
 */
 
-
-	#include <stdio.h>
-	void main() {
+#include <stdio.h>
+void main() {
 
 	float a = 3.14159, b = 2.71828;
 	float aux=0;
-
 
 	aux = b;								// aux = 2.71 
 	b = a;									// b = 3.1414
@@ -49,7 +45,7 @@ Dica: troque os valores armazenados em cada variável.
 	a = aux;
 	printf("\nEULER = %f", a);
 
-	}
+}
 
 /*
 Exercício 3: Conta Poupança
@@ -62,17 +58,16 @@ Resposta: A conta terá R$1050,91 no quarto mês.
 */
 
 #include <stdio.h>
-	int main(){
+int main(){
 
-		float mes1, mes2, mes3, mes4;
-		mes1 = 789.54;
-		mes2 = mes1*1.0056 + 303.20; 
-		mes3 = mes2*1.0056 - 58.25;  
-		mes4 = mes3*1.0056;
+	float mes1, mes2, mes3, mes4;
+	mes1 = 789.54;
+	mes2 = mes1*1.0056 + 303.20; 
+	mes3 = mes2*1.0056 - 58.25;  
+	mes4 = mes3*1.0056;
+	printf("%0.2f\n", mes4); 
 
-		printf("%0.2f\n", mes4); 
-
-		return 0;
+	return 0;
 	}
 
 /*
